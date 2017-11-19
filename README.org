@@ -1,0 +1,22 @@
+* pycoz
+
+Pycoz is a hacky implementation of containers for linux - it serves educational purposes only.
+
+On Fedora based systems you will need following packages installed:
+- git
+- python
+- swig
+- redhat-rpm-config
+- seccomp-devel
+- kernel devel
+
+** Environment
+
+To maintain a good hygiene we will start by creating a new python virtual env for our project and
+we will run shell inside it
+
+#+BEGIN_SRC sh
+pipenv shell
+#+END_SRC
+
+** TBD live!
