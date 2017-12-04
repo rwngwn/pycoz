@@ -9,5 +9,6 @@ def mount(special_file, target, fs_type,
 
 
 def mount_proc(target='/proc'):
+    mount('none', target, None)
     mount('proc', target, 'proc',
           _mount.MS_NODEV ^ _mount.MS_NOEXEC ^ _mount.MS_NOSUID)

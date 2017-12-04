@@ -11,7 +11,7 @@ def create_cgroups(name):
             if not os.path.exists(target):
                 os.makedirs(target)
         else:
-            print('%s cgroup is not mounted')
+            print('%s cgroup is not mounted' % group)
 
 
 def assing_cgroups(name, pid):
